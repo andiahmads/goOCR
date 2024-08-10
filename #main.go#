@@ -1,0 +1,30 @@
+nnpackage main
+
+import (
+	"fmt"
+	"github.com/otiai10/gosseract/v2"
+	"strings"
+	"log"
+)
+
+func main() {
+	client := gosseract.NewClient()
+	defer client.Close()
+	client.SetImage("ktp.png")
+	text, _ := client.Text()
+
+	fmt.Println("testing")
+	fmt.Println(text)
+
+	fmt.Sprintf("testing")
+
+	strings.R
+place("teting")
+	log.Println("testing")
+
+	
+
+
+
+
+}
